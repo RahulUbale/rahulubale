@@ -499,3 +499,7 @@ footer{
   }	
 	
 /* end social icon */
+
+.custom-link {
+    color: red; /* Change this to your desired color */
+}

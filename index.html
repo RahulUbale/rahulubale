@@ -25,6 +25,14 @@
 		<link rel="stylesheet" href="css/jquery.fullPage.css">
 		<!-- custom -->
 		<link rel="stylesheet" href="css/templatemo-style.css">
+		<style>
+		.white-link {
+           color: white;
+		}
+		.gery-link {
+			color: #999;
+		}
+		</style>
 
 	</head>
 	<body>
@@ -86,7 +94,7 @@
 					<div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.6s">
 						<div class="media">
 							<div class="media-object media-left">
-								<i class="fa fa-paper-plane"></i>
+								<i class="fa fa-file-code-o"></i>
 							</div>
 							<div class="media-body">
 								<h3 class="media-heading">Machine Learning</h3>
@@ -107,12 +115,14 @@
 					<div class="col-md-6 col-xs-11 wow fadeInLeft" data-wow-delay="0.9s">
 						<h2>ABOUT ME</h2>
 						<h4>SOFTWARE ENGINEER</h4>
-						<p>As a software engineer, my passion is to help you present your 
-							brand with style and elegance through innovative designs. With 
-							a keen eye for detail and extensive experience in software development,
-							 I bring a unique perspective to design that is both functional and visually appealing. 
-							 I specialize in developing responsive designs, CSS templates, and UI/UX designs
-							 with a focus on the latest technologies such as React, Cloud computing, Computer Vision, and Data Mining.</p>
+						<p> 
+							As a software engineer, I help businesses present their brand with innovative and elegant designs. 
+							With a keen eye for detail and extensive experience in software development,
+							I offer a unique perspective that combines functionality and visual appeal. 
+							I have expertise in Vue.js, React, Angular, and Java, along with a strong understanding of cloud computing, computer vision, and data mining. My goal is to create seamless, user-friendly experiences that make a lasting impression. Whether it's revamping your website, developing a new application, or enhancing your user interface, 
+							let's collaborate and bring your ideas to life!
+						</p>
+
 
 					</div>
 					<div class="col-md-6 col-xs-11 wow fadeInRight" data-wow-delay="0.9s">
@@ -152,61 +162,71 @@
 		</div>
 		<!-- end about -->
 
+
+		  
 		<!-- start portfolio -->
 		<div id="portfolio" class="section">
-		<div class="container">
-			<div class="row">
+			<div class="container">
+			  <div class="row">
 				<div class="col-md-12">
-					<h2 class="wow bounce">PORTFOLIO</h2>
+				  <h2 class="wow bounce">PORTFOLIO</h2>
 				</div>
-				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/portfolio-img1.jpg" class="img-responsive" alt="portfolio img">
-							<div class="portfolio-overlay">
-								<h4>Virtual Trading Platform</h4>
-								<h5>Created a virtual trading platform</h5>
-							</div>
+				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s" data-category="virtual-trading">
+				  <div class="portfolio-thumb">
+					<img src="images/portfolio-img1.jpg" class="img-responsive" alt="portfolio img">
+					<div class="portfolio-overlay">
+					  <h4>Virtual Trading Platform</h4>
+					  <h5>A Microservices based Virtual trading platform</h5>
+					  <a href="https://github.com/RahulUbale/Virtual-Trading-Platform" class="white-link">View Project</a>
 					</div>
+				  </div>
 				</div>
-				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/portfolio-img2.jpg" class="img-responsive" alt="portfolio img">
-							<div class="portfolio-overlay">
-								<h4>Distributed Microservices for Weather Report</h4>
-								<h5>Developed microservices for weather reports</h5>
-							</div>
+				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s" data-category="microservices">
+				  <div class="portfolio-thumb">
+					<img src="images/fest.jpg" class="img-responsive" alt="portfolio img">
+					<div class="portfolio-overlay">
+						<h4>June First Friday Gallery Walk</h4>
+						<h5>Art Work portfolio</h5>
+						<a href="https://specials.idsnews.com/first-friday-gallery-walk/index.html" class="white-link">View Project</a>
+					  </div>
+
+				  </div>
+				</div>
+				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s" data-category="twitter-classification">
+				  <div class="portfolio-thumb">
+					<img src="images/portfolio-img3.jpg" class="img-responsive" alt="portfolio img">
+					<div class="portfolio-overlay">
+					  <h4>Travel Tailer</h4>
+					  <h5>Tour Management System</h5>
+					  <a href="https://ogholap.pythonanywhere.com/" class="white-link">View Project</a>
 					</div>
+				  </div>
 				</div>
-				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/portfolio-img3.jpg" class="img-responsive" alt="portfolio img">
-							<div class="portfolio-overlay">
-								<h4>DDCS Approach for Twitter Traffic Classification</h4>
-								<h5>implemented DDCS approach for real-time spam tweet identification</h5>
-							</div>
+				<div class="col-md-6 col-xs-6 wow fadeIn" data-wow-delay="0.6s" data-category="phishing-detection">
+				  <div class="portfolio-thumb">
+					<img src="images/portfolio-img2.jpg" class="img-responsive" alt="portfolio img">
+					<div class="portfolio-overlay">
+						
+						<h4>Distributed Weather Report System</h4>
+						<h5>Microservices for weather reports</h5>
+						<a href="https://github.com/RahulUbale/Epsilon" class="white-link">View Project</a>
+					  </div>
+				  </div>
+				</div>
+				<div class="col-md-6 col-xs-6 wow fadeIn" data-wow-delay="0.6s" data-category="virtual-reality">
+				  <div class="portfolio-thumb">
+					<img src="images/portfolio-img5.jpg" class="img-responsive" alt="portfolio img">
+					<div class="portfolio-overlay">
+					  <h4>Virtual Reality</h4>
+					  <h5>Cylinder Challenge Game</h5>
+					  <a href="https://github.com/RahulUbale/Three.js-VR-Project" class="white-link">View Project</a>
 					</div>
+				  </div>
 				</div>
-				<div class="col-md-6 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/portfolio-img4.jpg" class="img-responsive" alt="portfolio img">
-							<div class="portfolio-overlay">
-								<h4>Phishing Detection with an Image Dataset</h4>
-								<h5>Utilized image dataset to detect phishing in collaboration with cross-functional teams.</h5>
-							</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/portfolio-img5.jpg" class="img-responsive" alt="portfolio img">
-							<div class="portfolio-overlay">
-								<h4>Virtual Reaility </h4>
-								<h5>Like to do VR in Unity </h5>
-							</div>
-					</div>
-				</div>
+			  </div>
 			</div>
-		</div>
-	</div>
+		  </div>
+		  
 	<!-- end portfolio -->
 
 		<!-- start contact -->
@@ -219,15 +239,18 @@
 							<p><i class="fa fa-phone"></i> +1 8123605294</p>
 							<p><i class="fa fa-envelope-o"></i> rahul.ubale19@gmail.com</p>
 							<p><i class="fa fa-map-marker"></i>Bloomington,Indiana,USA 47401  </p>
+							<p><i class="fa fa-file"></i><a href="./Rahul_s_Resume.pdf" download class="gery-link">Download Resume</a></p>
 						</address>
 					</div>
 					<div class="col-lg-6 col-md-6 col-xs-10 wow fadeInUp" data-wow-delay="0.6s">
-						<form role="form" method="post" action="mailto:rahul.ubale19@gmail.com">
+						<form role="form" method="post" action="https://formspree.io/f/mdornwyv">
 							<input name="name" type="text" class="form-control" id="name" placeholder="Your Name">
 							<input name="email" type="email" class="form-control" id="email" placeholder="Your Email">
 							<textarea name="message" rows="5" class="form-control" id="message" placeholder="Your Message"></textarea>
-							<input name="send" type="submit" class="form-control" id="send" value="SEND ME" onclick="mailto:rahul.ubale19@gmail.com" >
-						</form>
+							<input name="send" type="submit" class="form-control" id="send" value="SEND ME">
+						  </form>
+						  
+						
 					</div>
 					<div class="col-md-1 col-sm-1"></div>
 				</div>
