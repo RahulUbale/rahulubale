@@ -37,7 +37,7 @@ body
 #portfolio .fp-tableCell,
 
 footer,
-footer .fp-slide,
+
 footer .fp-tableCell
 {
     height: auto !important;
@@ -384,7 +384,7 @@ footer
     {
         border-top: 1px solid #090909;
         text-align: center;
-        padding-top: 40px;
+        padding-top: 30px;
         padding-bottom: 20px;
     }
 footer hr
@@ -436,7 +436,6 @@ footer{
 	width: 100%;
 	text-align: left;
 	font: normal 16px sans-serif;
-
 	padding: 45px 50px;
 }
 
